@@ -1,0 +1,89 @@
+#pragma once
+
+class announcer : public singleton<announcer>, public igame_event_listener {
+public:
+	announcer()
+	{
+		streak_timeout = 4.0f;
+		current_sound = nullptr;
+	}
+
+	void fire_game_event(igame_event* event) override;
+
+	void initialize();
+	void run();
+
+private:
+	void play_sound(char* sound_file);
+	char* current_sound;
+
+protected:
+	float last_kill_time;
+	int   kill_counter;
+	int   streak_counter;
+	float streak_timeout;
+};
+
+enum class tf_customkills : int {
+	HEADSHOT = 1,
+	BACKSTAB,
+	BURNING,
+	WRENCH_FIX,
+	MINIGUN,
+	SUICIDE,
+	TAUNT_HADOUKEN,
+	BURNING_FLARE,
+	TAUNT_HIGH_NOON,
+	TAUNT_GRAND_SLAM,
+	PENETRATE_MY_TEAM,
+	PENETRATE_ALL_PLAYERS,
+	TAUNT_FENCING,
+	PENETRATE_HEADSHOT,
+	TAUNT_ARROW_STAB,
+	TELEFRAG,
+	BURNING_ARROW,
+	FLYINGBURN,
+	PUMPKIN_BOMB,
+	DECAPITATION,
+	TAUNT_GRENADE,
+	BASEBALL,
+	CHARGE_IMPACT,
+	TAUNT_BARBARIAN_SWING,
+	AIR_STICKY_BURST,
+	DEFENSIVE_STICKY,
+	PICKAXE,
+	ROCKET_DIRECTHIT,
+	TAUNT_UBERSLICE,
+	PLAYER_SENTRY,
+	STANDARD_STICKY,
+	SHOTGUN_REVENGE_CRIT,
+	TAUNT_ENGINEER_SMASH,
+	BLEEDING,
+	GOLD_WRENCH,
+	CARRIED_BUILDING,
+	COMBO_PUNCH,
+	TAUNT_ENGINEER_ARM,
+	FISH_KILL,
+	TRIGGER_HURT,
+	DECAPITATION_BOSS,
+	STICKBOMB_EXPLOSION,
+	AEGIS_ROUND,
+	FLARE_EXPLOSION,
+	BOOTS_STOMP,
+	PLASMA,
+	PLASMA_CHARGED,
+	PLASMA_GIB,
+	PRACTICE_STICKY,
+	EYEBALL_ROCKET,
+	HEADSHOT_DECAPITATION,
+	TAUNT_ARMAGEDDON,
+	FLARE_PELLET,
+	CLEAVER,
+	CLEAVER_CRIT,
+	SAPPER_RECORDER_DEATH,
+	MERASMUS_PLAYER_BOMB,
+	MERASMUS_GRENADE,
+	MERASMUS_ZAP,
+	MERASMUS_DECAPITATION,
+	CANNONBALL_PUSH,
+};

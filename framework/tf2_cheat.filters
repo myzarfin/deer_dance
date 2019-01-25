@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="helpers\util.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\vmt.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ivengineclient.h">
+      <Filter>sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\ibaseclientdll.h">
+      <Filter>sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\icliententitylist.h">
+      <Filter>sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\iclientmodeshared.h">
+      <Filter>sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\user_cmd.h">
+      <Filter>sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="global\global.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="global\interfaces\interfaces.h">
+      <Filter>global\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="global\hooks\hooks.h">
+      <Filter>global\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="setup\setup.h">
+      <Filter>setup</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ienginetrace.h">
+      <Filter>sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\vector.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vgui\ipanel.h">
+      <Filter>sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\vgui\isurface.h">
+      <Filter>sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\color.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\public\global_vars_base.h">
+      <Filter>sdk\public</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\iefx.h">
+      <Filter>sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ienginevgui.h">
+      <Filter>sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\ivdebugoverlay.h">
+      <Filter>sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="global\draw\draw.h">
+      <Filter>global\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="global\fonts\fonts.h">
+      <Filter>global\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\vars\vars.h">
+      <Filter>menu\vars</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="sdk\client\c_base_player.h">
+      <Filter>sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\position_adjusment\position_adjustment.h">
+      <Filter>modules\position_adjustment</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\client\model_info.h">
+      <Filter>sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\engine\inetchannel.h">
+      <Filter>sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\chams\chams.h">
+      <Filter>modules\chams</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\visuals\visuals.h">
+      <Filter>modules\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\triggerbot\triggerbot.h">
+      <Filter>modules\triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\aimbot\aimbot.h">
+      <Filter>modules\aimbot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="global">
+      <UniqueIdentifier>{e6adfec7-224d-4639-a9af-325ce01a924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global\hooks">
+      <UniqueIdentifier>{4050ea55-1332-40f4-8e8d-5ea07477cc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global\interfaces">
+      <UniqueIdentifier>{b58b877b-e160-4ec5-8c35-4b6528e5a033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global\draw">
+      <UniqueIdentifier>{1374bb84-2e76-4e42-997c-3a42aacd0431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global\fonts">
+      <UniqueIdentifier>{2fe84bb6-a770-40cf-8e61-e5c76167eaf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{91fbeea4-e617-4ebf-aba3-6baeb9783831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{07dcefc1-94a9-4cee-824a-b02a5bee3fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\vars">
+      <UniqueIdentifier>{c8ed7030-45e9-4f86-9acd-c89d56e51c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{3aa81971-30dd-47ac-8d1e-3977b5141634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\client">
+      <UniqueIdentifier>{801450bb-2aaf-48f1-9491-6407348c3b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\engine">
+      <UniqueIdentifier>{807c769c-6b7c-425a-96aa-2b125e707167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\vgui">
+      <UniqueIdentifier>{22f5c084-78db-4c53-ba75-33882f1cd4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\public">
+      <UniqueIdentifier>{b9c1e6b9-ba1e-413d-b936-34b25e152a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="setup">
+      <UniqueIdentifier>{f295d70e-2c1a-4c1d-af43-70cce58465ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{33319d00-8dd1-4a82-a99e-9ee9d00a00d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\position_adjustment">
+      <UniqueIdentifier>{2fc673a3-a5ed-47a3-a95b-b9956ac34cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\chams">
+      <UniqueIdentifier>{a9862b56-49cd-4aa8-8061-d36bf4a0eb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\visuals">
+      <UniqueIdentifier>{40090e01-9c6b-47b2-a40c-e662ccb8c701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\triggerbot">
+      <UniqueIdentifier>{9776b896-5641-45e9-94cb-39192a014600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\aimbot">
+      <UniqueIdentifier>{2f144396-900a-4155-a1b8-bdb329832e0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="global\global.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="global\interfaces\interfaces.cpp">
+      <Filter>global\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="global\hooks\hooks.cpp">
+      <Filter>global\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="setup\setup.cpp">
+      <Filter>setup</Filter>
+    </ClCompile>
+    <ClCompile Include="global\draw\draw.cpp">
+      <Filter>global\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="global\fonts\fonts.cpp">
+      <Filter>global\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\vars\vars.cpp">
+      <Filter>menu\vars</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="modules\position_adjusment\position_adjustment.cpp">
+      <Filter>modules\position_adjustment</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\chams\chams.cpp">
+      <Filter>modules\chams</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\visuals\visuals.cpp">
+      <Filter>modules\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\triggerbot\triggerbot.cpp">
+      <Filter>modules\triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\aimbot\aimbot.cpp">
+      <Filter>modules\aimbot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
